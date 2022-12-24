@@ -1,0 +1,16 @@
+name: BuildServerSystem
+version: '${project.version}'
+main: de.simon.buildserversystem.BuildServerSystem
+api-version: 1.19
+authors: [ SimonDE2107 ]
+description: BuildServerSystem adds some useful features to build servers
+
+commands:
+  blocks:
+    description: Opens a menu with some blocks which are only accessible via commands
+  holo:
+    description: A hologram system
+  skull:
+    description: Gives you a player head in your inventory
+    aliases:
+      - head
